@@ -1,0 +1,6 @@
+{
+  "name": "Leitor de PDF Duplo",
+  "description": "Um leitor de PDF moderno para visualização em dupla página lado a lado, com suporte a miniaturas, anotações e modo livro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

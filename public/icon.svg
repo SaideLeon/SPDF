@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="pdfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <!-- Two overlapping Pages -->
+  <g transform="translate(60, 60)">
+    <!-- Back Page (Right Page / Left Page shadow) -->
+    <rect x="140" y="70" width="180" height="250" rx="16" fill="#475569" opacity="0.6" />
+    <!-- Front Page (Main Book/PDF icon) -->
+    <rect x="70" y="100" width="180" height="250" rx="16" fill="#f8fafc" />
+    <!-- Line ornaments inside page -->
+    <rect x="100" y="140" width="120" height="12" rx="4" fill="#94a3b8" />
+    <rect x="100" y="170" width="120" height="12" rx="4" fill="#cbd5e1" />
+    <rect x="100" y="200" width="80" height="12" rx="4" fill="#cbd5e1" />
+    <!-- PDF Badge -->
+    <rect x="60" y="240" width="100" height="48" rx="12" fill="url(#pdfGrad)" />
+    <text x="110" y="272" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle">PDF</text>
+  </g>
+</svg>
